@@ -1,0 +1,56 @@
+
+
+Round 1 - Coding
+        https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+        https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+        https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+
+Round 2 - LLD
+        Design Splitwise
+
+        N number of groups
+        each group contains M number of users
+
+        Assume groups and users are prefilled.assume group already has users.
+                groupID(1) - A,B,C
+                groupID(2) - A,C,D
+
+
+        1. split bill - adds a bill/transaction
+        2. show transactions of each user (who owns whom) , input (user)
+        3. show transaction which occurred in the group
+
+
+
+
+        2)
+
+        user B
+
+        -A paid 30k, you own him 10k
+        -You paid 30k, you will get back 20
+
+        3)
+
+        A  0
+        B  0
+        C  0
+
+        transaction 1) A paid 30k
+
+        BALANCE
+
+        A +20k
+        B -10k
+        C -10k
+
+
+        transaction 2) B paid 30k
+
+        BALANCE
+
+        A +10k
+        B +10k
+        C -20k
+
+

@@ -1,0 +1,54 @@
+
+Round 1
+
+LLD - Design PayLater service
+
+
+As a pay later service we allow our users to buy goods from merchant now and then then allow you to pay for those goods at a later date.
+the service works inside the boundary of following simple constraints.
+let's say that for every transaction through us merchants offer a discount for example if the transaction amount is rupees hundred and the merchant discount offered to us is 10% then we pay rupees 90 back to the merchant
+the discount varies from merchant to Merchant.
+ merchant can decide to change the discount if offers to us at any point in time.
+all users get onboarded with the get onboarded with the the credit limit beyond which they can't transact.
+if a transaction value exceeds this credit limit we reject the transaction.
+
+ use cases
+  there are various use cases of service is intended to fulfill.
+   allow merchants to be on board with the amount of discounts they offered to us.
+    allow merchants to change the discount they offer.
+     allow merchants to be onboarded name email and credit limit.
+      allow user to carry out a transaction of some amount to the merchant.
+       allow user to pay back their dues full or partial.
+
+        there isn't any discount for users no interest either.
+         reporting
+         how much discount we receive from a merchant till date.
+          dues for a users so far.
+           which users have reached their credit limit.
+            total dues from all users together.
+
+             goal
+              the goal of this coding challenge will be to build a system for satisfying our system use cases.
+               input output will be via,nd line the input can be given in any order and system should respond accordingly.
+                for inputs like merchant discount rate changes for credit limit changes for a user in the system adapts itself
+
+Here is how the command is corresponding to the use cases mentioned above can look like
+ new user U1 email credit limit
+  new merchant name discount percentage
+   new transaction user merchant transaction amount.
+    update merchant new discount rate
+     payback user amount
+      report total discount given by Merchant
+       report news user
+        report users at credit limit
+         report total dues
+
+merchant discount is not a discount given to users it is a commission percentage for treebo
+ we appreciate and look for good quality code having good coding standards
+  with proper object oriented design responsibility segregation will go a long way in impressing us
+  tests are important
+   great to have -
+    extensible and flexible design  that won't require a redesign to address possible future requirements in the given theme
+     security aspects need not be considered to limit the scope
+      there is no restriction on what tools frameworks you use for building the application
+

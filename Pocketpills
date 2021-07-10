@@ -1,0 +1,9 @@
+Coding interview -
+
+Given a single connected undirected graph without a cycle, we start removing all leaf nodes at each step. Find the number of steps till there is only a single node left.
+
+https://www.geeksforgeeks.org/minimum-amount-of-lamps-needed-to-be-installed/
+
+
+
+
