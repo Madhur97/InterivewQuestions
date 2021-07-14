@@ -4,3 +4,8 @@ Round 1 - Coding
             https://www.geeksforgeeks.org/ugly-numbers/
             https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
 
+Round 2 - LLD+coding
+            Design CKYC download and data processing LLD, assume every state has their own repository and the way of giving data
+            can be different like some have API, some have SFTP, etc and responses will be in different format.
+          Given an array containing integers, find the count of triplets such that the sum of any two elements is greater than
+          third element.

@@ -1,0 +1,4 @@
+Round 1 Coding
+        Find the inversion count of array containing integers
+        Find the length of maximum common subarray in given two arrays of integers.
+        [3,2,1,0,4] and [4,5, 3,2,1 6] has maximum common subarray of length 3 i.e. [3,2,1]
